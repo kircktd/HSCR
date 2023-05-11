@@ -7,5 +7,11 @@ HSCS is a set of custom reporting Python scripts that are designed to run on a w
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 HSCR is a set of python scripts that queries the underlying Hammerspace filesystems for user specific and system specific metrics. Initially the tool provides reporting on fileshare replication stats, and user capacity and file aging stats. The scripts are designed to run in the backround. The replication monitoring script runs every 5 minutes, and the two file capacity and file aging scripts run in the backround, but wake up only once per day at 3AM and 4AM. Each of these two capacity reporting scripts walk the filesystems and can be Hammerspace Anvil CPU intensive. In light of that it is recommended to only run these once per day during low periods of system utilization.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
+### Built With
+
+* [MS Windows]
+* [Python](https://python.org/)
+* [Hammerspace Toolkit](https://github.com/hammer-space/hstk)
 <p align="right">(<a href="#top">back to top</a>)</p>
