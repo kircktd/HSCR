@@ -28,4 +28,4 @@ Here are some basics on getting up and running.
 3. [Hammerspace Toolkit](https://github.com/hammer-space/hstk) (hstk) installed: `$ pip install hstk`
 4. [Prometheous](https://prometheus.io/download/)
 5. [Grafana](https://grafana.com/docs/grafana/latest/setup-grafana/installation/windows/)
-6. Hammerspace File System Mounted
+6. Hammerspace File Systems Mounted
