@@ -13,5 +13,5 @@ HSCR is a set of python scripts that queries the underlying Hammerspace filesyst
 * [MS Windows]
 * [Python](https://python.org/)
 * [Hammerspace Toolkit](https://github.com/hammer-space/hstk)
-* [Windows Exporter}(https://github.com/prometheus-community/windows_exporter)
+* [Windows Exporter](https://github.com/prometheus-community/windows_exporter)
 <p align="right">(<a href="#top">back to top</a>)</p>
