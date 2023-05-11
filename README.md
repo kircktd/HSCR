@@ -15,5 +15,5 @@ HSCR is a set of python scripts that queries the underlying Hammerspace filesyst
 * [Hammerspace Toolkit](https://github.com/hammer-space/hstk)
 * [Windows Exporter](https://github.com/prometheus-community/windows_exporter)
 * [Prometheous](https://prometheus.io/download/)
-* [Grafana]
+* [Grafana](https://grafana.com/docs/grafana/latest/setup-grafana/installation/windows/)
 <p align="right">(<a href="#top">back to top</a>)</p>
