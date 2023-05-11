@@ -29,3 +29,8 @@ Here are some basics on getting up and running.
 4. [Prometheous](https://prometheus.io/download/)
 5. [Grafana](https://grafana.com/docs/grafana/latest/setup-grafana/installation/windows/)
 6. Hammerspace File Systems Mounted
+
+### Installation
+
+1. Clone this repository `git clone https://github.com/kircktd/hsft.git`
+2. Copy or link hammertrack.py to the working directory on your server
