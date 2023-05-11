@@ -17,3 +17,15 @@ HSCR is a set of python scripts that queries the underlying Hammerspace filesyst
 * [Prometheous](https://prometheus.io/download/)
 * [Grafana](https://grafana.com/docs/grafana/latest/setup-grafana/installation/windows/)
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+Here are some basics on getting up and running. Everyone's Ftrack instance is configured a bit differently and
+will require some configuration.
+### Prerequisites
+
+1. [Ftrack API](https://help.ftrack.com/en/articles/1054630-getting-started-with-the-api) installed and configured `$ pip install ftrack-python-api`
+2. [Hammerspace Toolkit](https://github.com/hammer-space/hstk) (hstk) installed: `$ pip install hstk`
+3. Dotenv Installed - https://pypi.org/project/python-dotenv/
+4. Hammerspace file system mounted
