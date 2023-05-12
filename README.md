@@ -31,5 +31,12 @@ Here are some basics on getting up and running.
 6. Hammerspace File Systems Mounted As SMB Shares
 
 ### Installation
+1. Download and install the following packages in their default locations (Windows Exporter, Prometheus, Grafana)
+2. Create the following directories
+  - C:\Reporting
+  - C:\Reporting\Scripts
+  - C:\Reporting\tmp
+3. Download the three reporting python scripts and install them in the C:\Reporting\Scripts directory
+4. In the C:\Reporting\Scripts directory create a text file for each fileshare that you intend to monitor
 
 
