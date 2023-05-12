@@ -32,5 +32,4 @@ Here are some basics on getting up and running.
 
 ### Installation
 
-1. Clone this repository `git clone https://github.com/kircktd/hsft.git`
-2. Copy or link hammertrack.py to the working directory on your server
+
