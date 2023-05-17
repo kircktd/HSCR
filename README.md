@@ -1,6 +1,5 @@
 
 ![image](https://github.com/kircktd/HSCR/assets/105011940/3a2c8513-68ae-42b8-a2ec-6f7e67fc576c)
-![image](https://github.com/kircktd/HSCR/assets/105011940/d5384010-1323-4d09-9b5d-608f182087dd)
 ![image](https://github.com/kircktd/HSCR/assets/105011940/a000e8e2-69d4-4e6b-82fa-ffaafa602fee)
 
 
