@@ -68,18 +68,22 @@ while (True):
                     with open(rep_lat, "a") as statsout:
                         if secstring in recv:
                             recvs_out = recv.replace("SECONDS}", "").replace('\t', '').replace(" ", "")
-                            print("fileshare_replication_latency{Fileshare=",'"','\\','"',share," Receive",'\\','"','"'," }"," ",recvs_out,sep="", file=statsout, end="\n")
+                            #print("fileshare_replication_latency{Fileshare=",'"','\\','"',share," Receive",'\\','"','"'," }"," ",recvs_out,sep="", file=statsout, end="\n")
+                            print("fileshare_replication_latency{Fileshare=",'"',share,'"',",","Mode = ",'"',"Receive",'"',"}"," ",recvs_out,sep="", file=statsout, end="\n")
+                            
                         if minstring in recv:
                             recvm = recv.replace("MINUTES}", "").replace('\t', '').replace(" ", "")
                             recvs_out = recvm * 60
-                            print("fileshare_replication_latency{Fileshare=",'"','\\','"',share," Receive",'\\','"','"'," }"," ",recvs_out,sep="", file=statsout, end="\n")
+                            print("fileshare_replication_latency{Fileshare=",'"',share,'"',",","Mode = ","Receive",'"',"}"," ",recvs_out,sep="", file=statsout, end="\n")
+                            
                         if secstring in send:
                             send_out = send.replace("SECONDS,", "").replace('\t', '').replace(" ", "")
-                            print("fileshare_replication_latency{Fileshare=",'"','\\','"',share," Send",'\\','"','"'," }"," ",send_out,sep="", file=statsout, end="\n")
+                            print("fileshare_replication_latency{Fileshare=",'"',share,'"',",","Mode = ",'"',"Send",'"',"}"," ",send_out,sep="", file=statsout, end="\n")
+
                         if minstring in send:
                             sendm = send.replace("MINUTES,", "").replace('\t', '')
                             send_out = sendm * 60
-                            print("fileshare_replication_latency{Fileshare=",'"','\\','"',share," Send",'\\','"','"'," }"," ",send_out,sep="", file=statsout, end="\n")
+                            print("fileshare_replication_latency{Fileshare=",'"',share,'"',",","Mode = ",'"',"Send",'"',"}"," ",send_out,sep="", file=statsout, end="\n")
 
 #This section of the code reports on the bandwidth of the filesystem that has occurred since the last reporting interval (5 min.)
             with open(rep_stats, 'r') as repraw:
@@ -102,7 +106,7 @@ while (True):
                                         bwfinal = str(bwfinal1 - bwold)
                                         bwsave = str(bwfinal1)
                                         with open(rep_bw, "a") as band_width:
-                                            print("fileshare_replication_bandwidth{Fileshare=",'"','\\','"',share," Bandwidth",'\\','"','"',"}"," ",bwfinal,sep="", file=band_width)
+                                            print("fileshare_replication_bandwidth{Fileshare=",'"',share,'"',"}"," ",bwfinal,sep="", file=band_width)
                                         with open(f'{share}.txt', 'r+') as f:
                                             f.write(bwsave)
                                 if kilostring in line:
@@ -116,7 +120,7 @@ while (True):
                                         bwfinal = str(bwfinal1 - bwold)
                                         bwsave = str(bwfinal1)
                                         with open(rep_bw, "a") as band_width:
-                                            print("fileshare_replication_bandwidth{Fileshare=",'"','\\','"',share," Bandwidth",'\\','"','"',"}"," ",bwfinal, sep="", file=band_width)
+                                            print("fileshare_replication_bandwidth{Fileshare=",'"',share,'"',"}"," ",bwfinal, sep="", file=band_width)
                                         with open(f'{share}.txt', 'r+') as f:
                                             f.write(bwsave)
 
@@ -131,7 +135,7 @@ while (True):
                         with open(pend_out, 'r') as pend1:
                             pend2 = pend1.readline().strip('\n').replace("|PENDING_REQUESTS =", " ").replace(",","").replace(" ","")
                             with open(rep_pending, "a") as pending_out:
-                                print("fileshare_replication_pending{Fileshare=",'"','\\','"',share," Pending Requests",'\\','"','"',"}"," ",pend2, sep="", file=pending_out)
+                                print("fileshare_replication_pending{Fileshare=",'"',share,'"',"}"," ",pend2, sep="", file=pending_out)
 
  #This section of the code reports on the error counts of the filesystem. This is a point in time measurement and is not based on the last cycle period.            
             with open(rep_stats, 'r') as repraw:
@@ -144,6 +148,7 @@ while (True):
                         with open(errors, 'r') as error:
                             error_out = error.readline().strip('\n').replace("|ERRORED_REQUESTS =", " ").replace(",","").replace(" ","")
                             with open(rep_errors, "a") as errors_out:
-                                print("fileshare_replication_error_count{Fileshare=",'"','\\','"',share," Error Count",'\\','"','"',"}"," ",error_out, sep="", file=errors_out)
+                                print("fileshare_replication_error_count{Fileshare=",'"',share,'"',"}"," ",error_out, sep="", file=errors_out)
                      
         time.sleep(300)
+
