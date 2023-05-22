@@ -47,6 +47,7 @@ Here are some basics on getting up and running.
 
 ### Starting
 1. Right click C:\Reporting\Scripts\startup.ps1 and "Run with PowerShell"
+
 ![image](https://github.com/kircktd/HSCR/assets/105011940/69381c84-af1f-4f1b-be0b-16d833c97d47)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
