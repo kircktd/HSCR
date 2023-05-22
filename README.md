@@ -47,9 +47,7 @@ Here are some basics on getting up and running.
 
 ### Starting HSCR Scripts
 1. In the C:\Reporting\Scripts directory right click the startup.ps1 powershell script and select "Run With Powershell"
-3. Download the three reporting python scripts and install them in the C:\Reporting\Scripts directory
-4. In the C:\Reporting\tmp directory create an empty text file for each fileshare that you intend to monitor. (i.e Z.txt, Y.txt, W.txt). These files are used to calculate the latest metadata replication bandwidth for each monitored share. When additional shares are added to the montoring scheme a txt file will need to be created for each new share using the drive letter only.
-5. Copy and modify the hsconfig.txt file to the C:\Reporting\Scripts directory. An example file is available on this git repo.
+![image](https://github.com/kircktd/HSCR/assets/105011940/69381c84-af1f-4f1b-be0b-16d833c97d47)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ![image](https://github.com/kircktd/HSCR/assets/105011940/9aa7496c-af0e-4bfc-a60b-ff625a563bb8)
