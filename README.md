@@ -45,6 +45,7 @@ Here are some basics on getting up and running.
 5. Copy and modify the hsconfig.txt file to the C:\Reporting\Scripts directory. An example file is available on this git repo.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-![image](https://github.com/kircktd/HSCR/assets/105011940/f8ee7112-6f43-4ddd-bee1-cd0884c32ce3)
+### Starting
+1. Right click C:\Reporting\Scripts\startup.ps1 and "Run with Powershell"
 ![image](https://github.com/kircktd/HSCR/assets/105011940/69381c84-af1f-4f1b-be0b-16d833c97d47)
 <p align="right">(<a href="#top">back to top</a>)</p>
