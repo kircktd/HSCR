@@ -66,5 +66,5 @@ Here are some basics on getting up and running.
 
 ![image](https://github.com/kircktd/HSCR/assets/105011940/a2ce3bec-bdd1-4c96-acc1-fff818c5a075)
 
-4. At this point you can go to your Grafana instance and start building out your custom dashboards for the User Capacity, File Aging, and Replication metircs.
+4. You can now go to your Grafana instance and start building out your custom dashboards for the User Capacity, File Aging, and Replication metrics.
 
