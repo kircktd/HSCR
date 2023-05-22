@@ -43,14 +43,5 @@ Here are some basics on getting up and running.
 3. Download the three reporting python scripts and install them in the C:\Reporting\Scripts directory
 4. In the C:\Reporting\tmp directory create an empty text file for each fileshare that you intend to monitor. (i.e Z.txt, Y.txt, W.txt). These files are used to calculate the latest metadata replication bandwidth for each monitored share. When additional shares are added to the montoring scheme a txt file will need to be created for each new share using the drive letter only.
 5. Copy and modify the hsconfig.txt file to the C:\Reporting\Scripts directory. An example file is available on this git repo.
-
-  
-    - fileshare_user_count_aged.prom, 
-  
-    - fileshare_user_count_all.prom, 
-  
-    - fileshare_user_count_all_aged.prom
-  
-  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
