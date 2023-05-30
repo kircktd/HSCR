@@ -77,5 +77,5 @@ for support with advanced Hammerspace expressions that enable the extraction of 
 * Mike Bott of [Hammerspace](https://hammerspace.com)
 for Python support.
 * chatGPT of [chatGPT](https://chat.openai.com/)
-for support of the quick conversion of older bash scripts to python. It acted as a reference guide that enabled advanced code structure using my novice python skills.
+for support of the quick conversion of older bash scripts to python. It acted as a reference guide that enabled an advanced code structure using my novice python skills.
 
