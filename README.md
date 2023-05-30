@@ -72,8 +72,8 @@ Here are some basics on getting up and running.
 
 This project wouldn't exist without these folks' contributions:
 
-* David Flynn (Hammerspace CEO) - [Hammerspace](https://hammerspace.com)
-Support with advanced Hammerspace expressions that enable the extraction of user stats from the Hammerspace filesystem.
+* David Flynn (Hammerspace CEO) of [Hammerspace](https://hammerspace.com)
+for support with advanced Hammerspace expressions that enable the extraction of user stats from the Hammerspace filesystem.
 * Mike Bott of [Hammerspace](https://hammerspace.com)
 for Python support.
 
