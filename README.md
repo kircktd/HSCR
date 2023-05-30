@@ -76,4 +76,6 @@ This project wouldn't exist without these folks' contributions:
 for support with advanced Hammerspace expressions that enable the extraction of user stats from the Hammerspace filesystem.
 * Mike Bott of [Hammerspace](https://hammerspace.com)
 for Python support.
+* chatGPT [chatGPT](https://chat.openai.com/)
+Enabled the quick conversion of older bash scripts to python. It acted as a reference guide that enabled advanced code structure using my novice python skills.
 
