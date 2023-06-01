@@ -71,5 +71,6 @@ Here are some basics on getting up and running.
 ## Acknowledgments
 
 This project wouldn't exist without these folks' contributions:
+David Flynn, Mike Bott, chatGPT
 
 
