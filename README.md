@@ -68,9 +68,6 @@ Here are some basics on getting up and running.
 
 4. You can now go to your Grafana instance and start building out your custom dashboards for the User Capacity, File Aging, and Replication metrics.
 
-## Acknowledgments
 
-This project wouldn't exist without these folks' contributions:
-David Flynn, Mike Bott, chatGPT
 
 
