@@ -49,7 +49,7 @@ def filter_output(output):
 
 while True:
     now = datetime.datetime.now()
-    if now.minute == 50:
+    if now.minute == 45:
         file_names = {user_list, file_list}
         for empty_file in file_names:
             with open(empty_file, "w") as f:
