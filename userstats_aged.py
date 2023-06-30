@@ -58,7 +58,7 @@ def add_line_totals(filename):
 #Main While Statement
 while True:
     now = datetime.datetime.now()
-    if now.minute == 31:
+    if now.hour == 4:
 
 #Flush Out Prometheous .prom Files For New Pass   
         file_names = {user_files_aged, file_count_aged, user_capacity_aged, user_cap_aged, user_files_all_aged, user_capacity_all_aged, cap_aged_total,count_aged_total}
@@ -213,4 +213,4 @@ while True:
         with open(count_aged_total, 'a') as aged_count_all:
             print("fileshare_count_aged_total{Size =",'"',hunfiles,'"'," }"," ",total_aged,sep="",file=aged_count_all, end="\n")
 
-    time.sleep(300)
+    time.sleep(3600)
