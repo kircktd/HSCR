@@ -1,7 +1,9 @@
 # List of Python scripts to launch
 $python_scripts = @(
     "C:\Reporting\Scripts\repstats.py",
-    "C:\Reporting\Scripts\userstats.py"
+    "C:\Reporting\Scripts\userstats.py",
+    "C:\Reporting\Scripts\userstats_aged.py",
+    "C:\Reporting\Scripts\filelist_aged.py"
 )
 # Loop through the list and launch each script
 foreach ($script in $python_scripts) {
