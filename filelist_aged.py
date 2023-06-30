@@ -55,7 +55,7 @@ def filter_output(output):
 
 while True:
     now = datetime.datetime.now()
-    if now.minute == 53:
+    if now.hour == 5:
         file_names = {user_list, file_list, file_list_aged, files_out}
         for empty_file in file_names:
             with open(empty_file, "w") as f:
@@ -116,4 +116,4 @@ while True:
 
                 with open(file_list_aged, 'a') as aged_files_out:
                     print("fileshare_file_list_aged{File=","\"",modified_path,"\"",",","User=","\"",user_name,"\"","}",file_size, file=aged_files_out)
-    time.sleep(60)
+    time.sleep(3600)
