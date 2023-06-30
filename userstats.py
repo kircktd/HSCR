@@ -58,7 +58,7 @@ def add_line_totals(filename):
 #Main While Statement - This is set to run at the top of each hour
 while True:
     now = datetime.datetime.now()
-    if now.minute == 1:
+    if now.hour == 3:
 
 #Flush Out Prometheous .prom Files For New Pass   
         file_names = {user_files, file_count, user_capacity, user_cap, user_files_all, user_capacity_all, user_capacity_total,user_count_total}
@@ -227,4 +227,4 @@ while True:
 
 
 
-    time.sleep(60)
+    time.sleep(3600)
